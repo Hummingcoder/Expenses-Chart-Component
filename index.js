@@ -49,18 +49,18 @@ bars.forEach((bar, i) => {
   if (data[i].amount === biggest) {
     bar.style.background = "var(--Cyan)";
     bar.addEventListener("mouseover", (e) => {
-      bar.target.style.background = "#91cad1";
+      bar.style.background = "#91cad1";
     });
     bar.addEventListener("mouseout", (e) => {
-      bar.target.style.background = "var(--Cyan)";
+      bar.style.background = "var(--Cyan)";
     });
   } else {
     bar.style.background = "var(--Soft-red)";
     bar.addEventListener("mouseover", (e) => {
-      bar.target.style.background = "#f99682";
+      bar.style.background = "#f99682";
     });
     bar.addEventListener("mouseout", (e) => {
-      bar.target.style.background = "var(--Soft-red)";
+      bar.style.background = "var(--Soft-red)";
     });
   }
   applyHeight(bar, height);

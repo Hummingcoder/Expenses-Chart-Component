@@ -16,5 +16,5 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/expenses-chart-component-solution](https://www.frontendmentor.io/solutions/expenses-chart-component-solution-s_xZe6D9kU)
+- Live Site URL: [https://hummingcoder.github.io/Expenses-Chart-Component](https://hummingcoder.github.io/Expenses-Chart-Component/)
