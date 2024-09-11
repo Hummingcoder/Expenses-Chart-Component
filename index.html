@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Expenses chart component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <main>
+      <article class="myBalance">
+        <section>
+          <p>My balance</p>
+          <p class="balance">$921.48</p>
+        </section>
+        <img src="images/logo.svg" alt="logo-icon" />
+      </article>
+      <article class="spending">
+        <p class="heading">Spending - Last 7 days</p>
+        <section class="bar_container">
+          <div class="bars_box mon">
+            <div class="bar"></div>
+            <div class="day">mon</div>
+          </div>
+          <div class="bars_box tue">
+            <div class="bar"></div>
+            <div class="day">tue</div>
+          </div>
+          <div class="bars_box wed">
+            <div class="bar"></div>
+            <div class="day">wed</div>
+          </div>
+          <div class="bars_box thu">
+            <div class="bar"></div>
+            <div class="day">thu</div>
+          </div>
+          <div class="bars_box fri">
+            <div class="bar"></div>
+            <div class="day">fri</div>
+          </div>
+          <div class="bars_box sat">
+            <div class="bar"></div>
+            <div class="day">sat</div>
+          </div>
+          <div class="bars_box sun">
+            <div class="bar"></div>
+            <div class="day">sun</div>
+          </div>
+        </section>
+        <section>
+          <p class="second-heading">Total this month</p>
+          <div class="total_container">
+            <p class="total">$478.33</p>
+            <div>
+              <p class="incr">+2.4%</p>
+              <p class="second-heading">from last month</p>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
